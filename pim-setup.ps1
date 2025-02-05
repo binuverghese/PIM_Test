@@ -6,7 +6,7 @@ Connect-MgGraph -Scopes "RoleManagement.ReadWrite.Directory, Directory.ReadWrite
 $PimGroupName = "PIM-Admin-Group"
 $EligibleUsers = @("user1@domain.com", "user2@domain.com")
 $RoleName = "Owner"
-$SubscriptionId = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
+$SubscriptionId = "f7d23680-a82f-42ea-96ee-4169606d7b1e"
 
 # Get the Group Object ID
 $Group = Get-AzureADGroup -Filter "DisplayName eq '$PimGroupName'"

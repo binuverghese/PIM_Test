@@ -25,5 +25,5 @@ variable "role_assignment" {
 variable "subscription_id" {
   description = "Subscription ID where the PIM group is assigned"
   type        = string
-  default     = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
+  default     = "f7d23680-a82f-42ea-96ee-4169606d7b1e"
 }
