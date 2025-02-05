@@ -1,0 +1,7 @@
+Terraform:
+    Creates an Azure AD security group.
+    Assigns an owner.
+    Configures RBAC role assignments.
+PowerShell Script:
+    Enables Azure AD PIM on the created group.
+    Assigns eligible roles to users.
